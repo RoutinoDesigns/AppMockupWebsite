@@ -1,0 +1,176 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #393e46;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1 {
+
+  font-weight: bolder;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.features i {
+  font-size: 1.5rem;
+}
+
+#testimonials h2 {
+
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+/*Hero Section*/ 
+#title {
+  background-color: #222831;
+  color: white;
+}
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+.headertext {
+  font-family: 'Quicksand-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.phonemockup {
+
+  position: absolute;
+  left: 30%;
+}
+
+.container-fluid {
+  padding: 6% 15%;
+}
+
+/*Navigation*/ 
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: light;
+  font-size: 1.2rem;
+}
+
+.app-button {
+  margin: 5% 3% 5% 0;
+}
+/*Feature Section*/ 
+#features {
+ 
+  background-color: white;
+ 
+  position: relative;
+  z-index: 1;
+}
+
+#feature {
+  padding: 6%;
+}
+
+.feature-icons {
+  color: #00adb5;
+  margin-bottom: 0.9rem;
+}
+
+.feature-icons:hover {
+  color: #222831;
+}
+/*Testimonials*/ 
+#testimonials {
+
+
+  background-color: #00adb5;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 6% 15%;
+}
+/*Pricing*/ 
+#pricing {
+
+  padding: 6% 15%;
+}
+
+.priceCards {
+  padding: 4% 2%;
+}
+/*Media Query*/ 
+@media(max-width:1028px) {
+  .phonemockup {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+  #testimonials h2 ,h2{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .phonesizebutton{
+    font-size:80%;
+  }
+  
+}
+/*Download*/ 
+#download {
+  background-color: #00adb5;
+  color: white;
+
+}
+/*Footer*/ 
+
+#footer .container-fluid {
+  padding:1.5%;
+}
+
+a {
+  color: #222831;
+  text-decoration: none;
+}
