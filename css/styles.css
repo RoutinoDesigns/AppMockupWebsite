@@ -174,3 +174,24 @@ a {
   color: #222831;
   text-decoration: none;
 }
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  color: #00adb5;
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+#changeline {
+  color: #00adb5;
+}
